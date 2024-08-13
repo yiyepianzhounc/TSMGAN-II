@@ -27,7 +27,7 @@ conference_accepted.pdf # Final conference Paper
 Speech Enhancement is significantly applied in speech processing, as  a foundation for downstream tasks. Nowadays, neural networks are well applied  in speech enhancement. However, there remain considerable difficulties for neural networks to improve speech quality. Firstly, existing methods have the problem of speech over-suppression. Because they have not yet taken into account  that neural networks influence not only background noise but also clean speech  during enhancement. This issue can negatively impact the following tasks. Secondly, striking a balance between model complexity and performance is crucial,  especially when deploying on resource-constrained hardware. Existing models  often prioritize performance, overlooking the issue of complexity. To solve the  problems above, we propose a novel Generative Adversarial Network based on  Two-Stage Mask Transformer and Information Interaction (TSMGAN-II), consisting of an attention encoder, a two-stage mask transformer, and a dual-feature  decoder with information interaction. It effectively captures and models both amplitude and spectral characteristics within the time-frequency domain. Experiments on the VoiceBank+DEMAND dataset show that our model, with 1.39 million parameters, achieves state-of-the-art performance with PESQ of 3.40 and  SSNR of 11.81. Moreover, we also introduce a lightweight model with just 0.59M parameters, achieving 97% of the performance of SOTA models with  PESQ of 3.31 and SSNR of 11.53. 
 
 ## Environment
-
+As of August 2024, the latest version is fine.
 ```
 pytorch
 numpy
